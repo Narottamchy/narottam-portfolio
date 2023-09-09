@@ -31,3 +31,19 @@
     @apply opacity-100;
   }
 }
+/* Custom class for thin scrollbar */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 4px; /* Adjust this value to make the scrollbar thinner or thicker */
+}
+
+/* Customize the scrollbar thumb (optional) */
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #305e88; /* Change the color if desired */
+  border-radius: 2px; /* Adjust the radius for rounded corners */
+}
+
+/* Customize the scrollbar track (optional) */
+.thin-scrollbar::-webkit-scrollbar-track {
+  background-color: #a0aec0; /* Change the color if desired */
+}
+

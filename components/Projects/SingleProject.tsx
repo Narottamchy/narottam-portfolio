@@ -5,14 +5,14 @@ import Link from "next/link";
 const SingleProject = ({ project }: { project: Project }) => {
   const { title, image,live, github } = project;
   return (
-    <div className="p-6 bg-white shadow-one dark:bg-dark/40 overflow-hidden rounded-2xl text-center hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+    <div className="p-6 bg-white shadow-one dark:bg-dark/40 overflow-hidden rounded-2xl text-center hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
       <div
         className="wow fadeInUp relative overflow-hidden"
         data-wow-delay=".1s"
       >
-        <Link href="/" className="relative block h-[260px] w-full">
-          <Image src={image} alt="image" fill className="rounded-3xl border-8" />
-        </Link>
+        <div className="relative block h-64 w-full">
+          <Image src={image} alt="image" fill className="rounded-3xl border-2" />
+        </div>
         <div className="p-4">
           <h3 className="font-bold text-2xl mb-4">
             {title}

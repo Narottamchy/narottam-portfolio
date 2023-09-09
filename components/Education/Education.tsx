@@ -26,7 +26,7 @@ const Education = () => {
               </div>
               <div className="text-center">
                 {/* Senior Secondary */}
-                <div className="mb-9 border-2 p-8 rounded-3xl hover:border-indigo-500 hover:bg-indigo-500 hover:text-white hover:shadow-lg dark:border-gray-500 dark:bg-gray-800 dark:text-gray-100 transition duration-300 ease-in-out">
+                <div className="mb-9 border-2 p-8 rounded-3xl hover:scale-105 hover:text-white hover:shadow-2xl dark:border-gray-500 dark:bg-gray-800 dark:text-gray-100 transition duration-300 ease-in-out">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                     Senior Secondary
                   </h3>
@@ -38,7 +38,7 @@ const Education = () => {
                   </p>
                 </div>
                 {/* Bachelor of Technology */}
-                <div className="mb-1 border-2 p-8 rounded-3xl hover:border-indigo-500 hover:bg-indigo-500 hover:text-white hover:shadow-lg dark:border-gray-500 dark:bg-gray-800 dark:text-gray-100 transition duration-300 ease-in-out">
+                <div className="mb-1 border-2 p-8 rounded-3xl hover:scale-105 hover:text-white hover:shadow-2xl dark:border-gray-500 dark:bg-gray-800 dark:text-gray-100 transition duration-300 ease-in-out">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                     Bachelor of Technology
                   </h3>
