@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import ParticleBg from "../Common/ParticleBg";
 
 const Contact = () => {
   const emailLink = "mailto:narottam2363@gmail.com";
@@ -89,7 +91,7 @@ w-8 h-8 md:w-10 md:h-10 transition duration-300 ease-in-out transform hover:scal
     </Link>
   </li>
 </ul>
-
+<ParticleBg />
     </section>
   );
 };

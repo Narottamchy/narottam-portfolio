@@ -75,7 +75,7 @@ const Header = () => {
               >
                 <ul className="block lg:flex lg:space-x-12 lg:justify-end">
                   {menuData.map((menuItem, index) => (
-                    <li key={menuItem.id} className="group relative">
+                    <li key={menuItem.id} className="group relative" onClick={navbarToggleHandler}>
                       {menuItem.path ? (
                         <Link
                           href={menuItem.path}

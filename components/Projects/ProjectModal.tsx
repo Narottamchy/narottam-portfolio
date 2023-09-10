@@ -5,7 +5,7 @@ import Link from 'next/link';
 const ProjectModal = ({ project, onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center backdrop-blur-md justify-center z-[999]">
-      <div className="absolute inset-0 bg-black opacity-40"></div>
+      <div className="absolute inset-0 bg-black opacity-40" onClick={onClose}></div>
       <div className="bg-white w-5/6 dark:bg-primary/20 dark:bg-opacity-20 bg-opacity-80 p-4 md:p-8 rounded-3xl z-10 relative">
         <button
           className="absolute top-2 right-2 text-gray-400 hover:text-gray-600 mr-4 mt-2 text-2xl transition"
