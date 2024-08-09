@@ -5,6 +5,7 @@ import { Inter } from "@next/font/google";
 import Education from "@/components/Education/Education";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import WorkExperience from "@/components/experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +15,10 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Skills />
-      <Education />
+      <WorkExperience/>
       <Projects />
+      <Education />
+    
       <Contact />
     </>
   );

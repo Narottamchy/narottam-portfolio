@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="w-full md:w-1/3 px-4 flex justify-center"> {/* Adjust the width for the image */}
       <div className="text-center">
         {/* Add the Image component here */}
-        <Image src="/images/photo.png" className="border border-blue-500 rounded-full w-40 md:w-72 h-40 md:h-72" alt="Your Image" width={400} height={400} />
+        <Image src="/images/photo.png" className="border bg-yellow border-blue-500 rounded-full w-40 md:w-72 h-40 md:h-72" alt="Your Image" width={400} height={400} />
       </div>
     </div>
     <div className="w-full md:w-2/3 px-4"> {/* Adjust the width for the text */}
