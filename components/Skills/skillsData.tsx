@@ -4,14 +4,14 @@ const skillsData: Skill[] = [
   {
     id: 1,
     icon: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
-    title: "Html3",
+    title: "Html",
 
 level:""
   },
   {
     id: 2,
     icon: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
-    title: "CSS3",
+    title: "CSS",
 
 level:""
   },
@@ -30,8 +30,22 @@ level:""
 level:""
   },
   {
+    id:5,
+    icon: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
+    title: "MySql",
+
+level:""
+  },
+  {
+    id:6,
+    icon: "https://img.icons8.com/?size=100&id=hCWb1IvpcBZ0&format=png&color=000000",
+    title: "Flask",
+
+level:""
+  },
+  {
     id: 5,
-    icon: "https://scontent.fdel46-1.fna.fbcdn.net/v/t39.30808-6/299463877_560030875914611_8025210373789510385_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=dcfmmwDV5I8AX8XA0ta&_nc_ht=scontent.fdel46-1.fna&oh=00_AfDTGqhZiuQGNTKBY3Ea5PipuH5Pnn0VljumsRqwo8C8AQ&oe=64FFB2F7",
+    icon: "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
     title: "Tailwind CSS",
 
 level:""
@@ -66,7 +80,7 @@ level:""
   },
   {
     id: 10,
-    icon: "https://cdn-icons-png.flaticon.com/512/1199/1199124.png",
+    icon: "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000",
     title: "Express JS",
 
 level:""
@@ -85,5 +99,65 @@ level:""
 
 level:""
   },
+  {
+    id: 13,
+    icon: "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
+    title: "PostgreSQL",
+
+level:""
+  },
+  {
+    id: 14,
+    icon: "https://img.icons8.com/?size=100&id=YKKmRFS8Utmm&format=png&color=000000",
+    title: "Prisma",
+
+level:""
+  },
+  {
+    id: 15,
+    icon: "https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000",
+    title: "NestJS",
+
+level:""
+  },
+  {
+    id: 16,
+    icon: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+    title: "Docker",
+
+level:""
+  },
+  {
+    id: 17,
+    icon: "https://img.icons8.com/?size=100&id=wU62u24brJ44&format=png&color=000000",
+    title: "AWS",
+
+level:""
+  },
+  {
+    id: 18,
+    icon: "https://img.icons8.com/?size=100&id=nrY6pkbRkJCi&format=png&color=000000",
+    title: "MariaDB",
+
+level:""
+  },
+  {
+    id: 19,
+    icon: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000",
+    title: "Redis",
+
+level:""
+  },
+  {
+    id:20,
+    icon: "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000",
+    title: "Kubernetes",
+
+level:""
+  },
+
+
+  
+  
 ];
 export default skillsData;

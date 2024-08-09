@@ -23,7 +23,7 @@ const projectData: Project[] = [
     description: {desc:"Naturaleza: Your Organic Tech Guide for Informed Product Choices and Education",lang:"React JS, Next Js, Api, CSS, HTML, JavaScript"},
     github: "https://github.com/Narottamchy/Naturaleza/tree/main/source/naturaleza",
     image: "/images/skills/Naturaleza.png",
-    live: "https://naturaleza-self.vercel.app/",
+    live: "https://naturaleza-in.vercel.app/",
   },
   {
     id: 4,

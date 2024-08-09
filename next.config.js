@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['cdn-icons-png.flaticon.com','scontent.fdel46-1.fna.fbcdn.net',"www.drupal.org"],
+    domains: ['cdn-icons-png.flaticon.com','scontent.fdel46-1.fna.fbcdn.net',"www.drupal.org","img.icons8.com"],
   },
 };
 
